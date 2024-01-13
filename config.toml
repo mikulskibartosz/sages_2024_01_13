@@ -1,0 +1,12 @@
+train_test_split = 0.8
+batch_size = 32
+
+[model]
+name = "resnet18"
+parameters = ["arg1", "arg2", "arg3"]
+
+[[model.metrics]]
+name = "accuracy"
+
+[[model.metrics]]
+name = "loss"
